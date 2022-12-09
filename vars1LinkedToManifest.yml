@@ -1,1 +1,1 @@
-APP_NAME: ${app.name}__${service.name}__${env.name}
+APP_NAME: <+service.name>
