@@ -1,4 +1,2 @@
-APP_NAME: <+service.name>
 APP_MEMORY: 750M
 INSTANCES: 1
-
