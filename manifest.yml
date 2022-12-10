@@ -1,6 +1,6 @@
 applications:
 - name: rishabh_bg_app
-  instances: 2
-  memory: 250M
+  instances: ((INSTANCES))
+  memory: 350M
   routes:
     - route: rishabh_bg_app.apps.pcf-harness.com
