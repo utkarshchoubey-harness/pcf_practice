@@ -2,7 +2,5 @@ applications:
 - name: ((APP_NAME))
   instances: ((INSTANCES))
   memory: ((APP_MEMORY))
-  docker: 
-    image: library/nginx 
   routes:
     - route: rishabh_basic_app.apps.pcf-harness.com
