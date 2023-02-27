@@ -3,4 +3,4 @@ applications:
   instances: ((INSTANCES))
   memory: ((APP_MEMORY))
   routes:
-    - route: rishabh_basic_app.apps.pcf-harness.com
+    - route: sourabh_swap_rback.apps.tas-harness.com
