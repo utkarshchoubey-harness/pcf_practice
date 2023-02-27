@@ -4,5 +4,3 @@ applications:
   memory: ((APP_MEMORY))
   routes:
     - route: rishabh_basic_app.apps.pcf-harness.com
-  services:
-  - myautoscaler
