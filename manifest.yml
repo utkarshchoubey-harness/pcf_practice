@@ -3,4 +3,4 @@ applications:
   instances: ((INSTANCES))
   memory: ((APP_MEMORY))
   routes:
-    - route: <+secrets.getValue("route1")>
+    - route: https://sourabh_swap_rback.apps.tas-harness.com
