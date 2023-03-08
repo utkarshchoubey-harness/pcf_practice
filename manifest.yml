@@ -3,4 +3,4 @@ applications:
   instances: ((INSTANCES))
   memory: ((APP_MEMORY))
   routes:
-    - route: https://sourabh_swap_rback.apps.tas-harness.com
+    - route: sourabh_swap_rback.apps.tas-harness.com
