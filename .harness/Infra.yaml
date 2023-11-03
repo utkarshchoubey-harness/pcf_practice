@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: Infra
+  identifier: Infra
+  orgIdentifier: default
+  environmentRef: env
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.K8s
+    namespace: d
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
