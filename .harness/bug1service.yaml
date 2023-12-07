@@ -1,0 +1,5 @@
+service:
+  name: bug-1-service
+  identifier: bug1service
+  orgIdentifier: default
+  projectIdentifier: test
