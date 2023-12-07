@@ -3,3 +3,26 @@ service:
   identifier: bug1service
   orgIdentifier: default
   projectIdentifier: test
+  serviceDefinition:
+    spec:
+      customDeploymentRef:
+        templateRef: deptemo1
+        versionLabel: "1"
+      artifacts:
+        primary:
+          primaryArtifactRef: <+input>
+          sources:
+            - spec:
+                connectorRef: account.harnessImage
+                imagePath: library/nginx
+                tag: sample
+                digest: dd
+              identifier: docker
+              type: DockerRegistry
+      variables:
+        - name: var1
+          type: Secret
+          description: wwww
+          required: false
+          value: account.gits
+    type: CustomDeployment
