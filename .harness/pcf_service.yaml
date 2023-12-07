@@ -3,3 +3,21 @@ service:
   identifier: pcf_service
   orgIdentifier: default
   projectIdentifier: test
+  serviceDefinition:
+    spec:
+      manifests:
+        - manifest:
+            identifier: dd
+            type: TasManifest
+            spec:
+              cfCliVersion: V7
+              store:
+                type: Github
+                spec:
+                  connectorRef: <+input>
+                  gitFetchType: Branch
+                  paths:
+                    - dd
+                  repoName: dd
+                  branch: dd
+    type: TAS
