@@ -1,0 +1,5 @@
+service:
+  name: pcf_service
+  identifier: pcf_service
+  orgIdentifier: default
+  projectIdentifier: test
