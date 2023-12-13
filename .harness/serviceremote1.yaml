@@ -1,0 +1,5 @@
+service:
+  name: service-remote-1
+  identifier: serviceremote1
+  orgIdentifier: default
+  projectIdentifier: Gitxtest1
