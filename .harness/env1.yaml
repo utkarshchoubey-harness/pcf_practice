@@ -1,0 +1,8 @@
+environment:
+  name: env-1
+  identifier: env1
+  description: ""
+  tags: {}
+  type: PreProduction
+  orgIdentifier: default
+  projectIdentifier: Gitxtest1
