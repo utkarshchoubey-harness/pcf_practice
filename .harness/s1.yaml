@@ -1,0 +1,7 @@
+service:
+  name: s1
+  identifier: s1
+  serviceDefinition:
+    type: Kubernetes
+    spec: {}
+  gitOpsEnabled: false
