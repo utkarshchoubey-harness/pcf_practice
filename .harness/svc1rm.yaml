@@ -1,0 +1,13 @@
+service:
+  name: svc1-rm
+  identifier: svc1rm
+  serviceDefinition:
+    type: Kubernetes
+    spec:
+      variables:
+        - name: var1
+          type: String
+          description: ""
+          required: false
+          value: cwfewfcew3f
+  gitOpsEnabled: false
