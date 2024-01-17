@@ -1,22 +1,23 @@
+# K8S Deployments example
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: myapp-deployment
   labels:
-    app: nginx
+    app: myapp
+    type: front-end
 spec:
-  progressDeadlineSeconds: 3600
-  replicas: 3
-  selector:
-    matchLabels:
-      app: nginx
   template:
     metadata:
+      name: myapp-pod
       labels:
-        app: nginx
+        app: myapp
+        type: front-end
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.0
-        ports:
-        - containerPort: 80
+        - name: nginx-container
+          image: nginx
+  replicas: 1
+  selector:
+    matchLabels:
+      type: front-end
