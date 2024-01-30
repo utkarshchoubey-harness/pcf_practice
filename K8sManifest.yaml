@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: nginx:stable-perl
+          image: nginx:stable
   replicas: 1
   selector:
     matchLabels:
