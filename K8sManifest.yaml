@@ -1,4 +1,4 @@
-;l# K8S Deployments example
+# K8S Deployments example
 apiVersion: apps/v1
 kind: Deployment
 metadata:
