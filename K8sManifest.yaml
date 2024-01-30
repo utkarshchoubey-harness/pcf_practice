@@ -1,4 +1,4 @@
-# K8S Deployments example
+;l# K8S Deployments example
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: nginx:stable
+          image: nginx:stable-perl
   replicas: 1
   selector:
     matchLabels:
